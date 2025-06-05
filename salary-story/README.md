@@ -15,8 +15,6 @@ The dashboard features several sophisticated visualizations:
 4. **Parallel Coordinates Plot**: An advanced visualization that allows users to explore multivariate relationships by dragging over axes, making it easy to identify patterns and clusters in the data.
 
 All visualizations feature modern design elements including:
-- Glass morphism effects with backdrop blur
-- Gradient backgrounds and animations
 - Interactive tooltips with detailed information
 - Smooth hover effects and transitions
 - Color-coded data presentation
@@ -32,10 +30,6 @@ cd salary-story
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
 ```
 
 ## Running the Application
@@ -43,10 +37,6 @@ pnpm install
 1. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
@@ -72,9 +62,5 @@ The visualizations reveal several key insights about salary determinants:
 
 1. Work Experience (r=0.90) shows the strongest correlation with salary
 2. Educational factors like GPA (r=0.08) show surprisingly weak correlations
-3. Industry choice has a significant impact on salary distributions
+3. Industry choice has a moderate impact on salary distributions
 4. Multiple factors together provide better salary predictions than any single factor
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
